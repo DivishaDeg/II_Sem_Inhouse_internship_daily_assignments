@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">My Website</div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+
+        <div class="menu-btn" onclick="toggleMenu()">
+            ☰
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h1>Welcome to My Website</h1>
+        <p>
+            This is the Home page. Here you can explore our website and learn more about us.
+        </p>
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h1>About Us</h1>
+        <p>
+            We are passionate web developers creating beautiful and responsive websites using HTML, CSS, and JavaScript.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h1>Contact Us</h1>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <textarea placeholder="Your Message"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
