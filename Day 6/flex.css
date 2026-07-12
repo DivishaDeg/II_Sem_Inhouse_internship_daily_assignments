@@ -1,0 +1,31 @@
+body{
+    background:#f5f7fa;
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.user-img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin:auto;
+    margin-top:20px;
+}
+
+.even-card{
+    background:#d9fff9;
+}
+
+.odd-card{
+    background:white;
+}
